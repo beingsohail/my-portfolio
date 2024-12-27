@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"  # If you have any frontend build process
+  publish = "public"         # Static files are in the 'public' directory
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
