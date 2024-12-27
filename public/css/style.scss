@@ -578,8 +578,8 @@ body {
             width: 80%;
             margin: 10% auto;
             opacity: 60%;
-            
-        }
+            border-radius: 50%; 
+        }  
     }
 
     .resume-text {
@@ -633,8 +633,10 @@ body {
     
             img {
                 width: 50%;
+                border-radius: 50%;
             }
         }
+        
 
         .resume-text {
             transform: translate(-50%, -30%);
